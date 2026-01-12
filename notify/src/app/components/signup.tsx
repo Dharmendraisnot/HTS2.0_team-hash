@@ -50,7 +50,7 @@ const Signup: React.FC = () => {
       if (error instanceof Error) {
         setError(
           error.message ||
-            "Failed to sign up. Please check your details and try again."
+          "Failed to sign up. Please check your details and try again."
         );
       } else {
         setError("Failed to sign up. Please check your details and try again.");
